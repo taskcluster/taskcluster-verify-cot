@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "dependencies": {
+    "ajv": "^4.9.0",
+    "app-root-dir": "^1.0.2",
+    "assume": "^1.4.1",
+    "docopt": "^0.6.2",
+    "es6-error": "^4.0.0",
+    "got": "^6.6.3",
+    "js-yaml": "^3.7.0",
+    "lodash": "^4.17.2",
+    "mustache": "^2.3.0",
+    "mz": "^2.6.0",
+    "neutrino": "^3.0.0",
+    "neutrino-preset-taskcluster": "^2.0.0",
+    "openpgp": "^2.3.5",
+    "source-map-support": "^0.4.6",
+    "taskcluster-client": "^1.6.1"
+  },
+  "config": {
+    "preset": "neutrino-preset-taskcluster"
+  },
+  "scripts": {
+    "start": "neutrino build && node build/index.bundle.js",
+    "build": "neutrino build",
+    "test": "neutrino test"
+  },
+  "main": "build/index.js"
+}

@@ -1,0 +1,50 @@
+authorizes:
+  - aws-provisioner-v1/dbg-linux32
+  - aws-provisioner-v1/dbg-linux64
+  - aws-provisioner-v1/desktop-test
+  - aws-provisioner-v1/desktop-test-large
+  - aws-provisioner-v1/desktop-test-xlarge
+  - aws-provisioner-v1/gecko-1-b-android
+  - aws-provisioner-v1/gecko-1-b-linux
+  - aws-provisioner-v1/gecko-1-b-macosx64
+  - aws-provisioner-v1/gecko-2-b-android
+  - aws-provisioner-v1/gecko-2-b-linux
+  - aws-provisioner-v1/gecko-2-b-macosx64
+  - aws-provisioner-v1/gecko-3-b-android
+  - aws-provisioner-v1/gecko-3-b-linux
+  - aws-provisioner-v1/gecko-3-b-macosx64
+  - aws-provisioner-v1/gecko-decision
+  - aws-provisioner-v1/gecko-t-linux-large
+  - aws-provisioner-v1/gecko-t-linux-medium
+  - aws-provisioner-v1/gecko-t-linux-xlarge
+  - aws-provisioner-v1/github-worker
+  - aws-provisioner-v1/hg-worker
+  - aws-provisioner-v1/mulet-debug
+  - aws-provisioner-v1/mulet-opt
+  - aws-provisioner-v1/opt-linux32
+  - aws-provisioner-v1/opt-linux64
+  - aws-provisioner-v1/opt-macosx64
+  - aws-provisioner-v1/releng-task
+  - aws-provisioner-v1/rustbuild
+  - aws-provisioner-v1/spidermonkey
+  - aws-provisioner-v1/taskcluster-images
+publicKey: |
+  -----BEGIN PGP PUBLIC KEY BLOCK-----
+  Version: GnuPG v1
+
+  mQENBFgSoHIBCADzPc72rZQ1g9WNN9rjgsSeL7JmxPAbJq+wXetzTJhY/ngMuHHB
+  QI4/2AINc/Eo7dNvvbPRbwaQNk0STivtGcMFKQL9DScDP4bMq/lJPINj8V+V80q9
+  Ql0TKaBo7Bg0IQrlXv1LQ8Wf3gPG5Mo392nrTVBYKJJy1SdNQq8XdC6HynBYlD/V
+  6GwAYCcHnDcbCRQfDcuFmDTNAByw2iy9ACBA5XpXDRJkUhRtQYDINj0hzQwywlqT
+  jyvjNSfS+dLUiWWue8yJBYbj+ONpnFwxSOHMrD8WH2/5PW76RsFb6sLGn1WmI22v
+  p/wEzP/VCs2oYfIRW1Kzwm23QHhC+GcrncT9ABEBAAG0O0RvY2tlci1Xb3JrZXIg
+  PHRhc2tjbHVzdGVyLWFjY291bnRzK2dwZ3NpZ25pbmdAbW96aWxsYS5jb20+iQE4
+  BBMBAgAiBQJYEqByAhsvBgsJCAcDAgYVCAIJCgsEFgIDAQIeAQIXgAAKCRDpgtN5
+  wk3IhdXnB/91H5gIMBHl0N5o/RiTq/Y+mS6+F4uYU5oi1oJGCqKE02efoDvYLKqk
+  E6unOnPO11SHAzzkogjsXS5O3H4xCw8noFFZqfk5ionkxfxx1+AZSBUvaoZ5gLPq
+  IYkf8HJeU10CbJMtgBYnIFjtwXUHP1FPm270ABG49smlTXhg3ymSPoSRdtzygXX0
+  Dnr8fnT54Eh1kH1KJc7/zic7BXsRieW9j5IRS102SKXrpmbq7cLG42SwBE3YkajA
+  ndPXX6wTNv+mUsCgGvfwMfeRrqD8apf8l3yu77bB5EsSraA+breUJw7WcVP8Scb5
+  IjvzkCbaCQ/ylIL5OeCtht+SNoc4dpNB
+  =e3sL
+  -----END PGP PUBLIC KEY BLOCK-----

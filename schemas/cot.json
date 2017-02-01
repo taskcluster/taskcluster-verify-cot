@@ -1,0 +1,61 @@
+{
+  "id": "http://schemas.taskcluster.net/common/v1/cot.json#",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Chain of Trust Artifact",
+  "description": "COT-artifact for verfication of tasks",
+  "type": "object",
+  "properties": {
+    "chainOfTrustVersion": {"enum": [1]},
+    "artifacts": {
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          }
+        },
+        "additionalProperties": false,
+        "required": ["sha256"]
+      }
+    },
+    "task": {"$ref": "http://schemas.taskcluster.net/queue/v1/task.json#"},
+    "environment": {
+      "type": "object",
+      "description": "Properties speific to the given `provisionerId`/`workerType` combination",
+      "additionalProperties": true
+    },
+    "taskId": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_-]{8}[Q-T][A-Za-z0-9_-][CGKOSWaeimquy26-][A-Za-z0-9_-]{10}[AQgw]$"
+    },
+    "runId": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 50
+    },
+    "workerGroup": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 22,
+      "pattern": "^([a-zA-Z0-9-_]*)$"
+    },
+    "workerId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 22,
+      "pattern": "^([a-zA-Z0-9-_]*)$"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "chainOfTrustVersion",
+    "artifacts",
+    "task",
+    "environment",
+    "taskId",
+    "runId",
+    "workerGroup",
+    "workerId"
+  ]
+}
