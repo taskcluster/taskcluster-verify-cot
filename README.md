@@ -1,6 +1,8 @@
 Chain-of-Trust Verification
 ===========================
 
+![Cot](https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Cot_%28PSF%29.png/640px-Cot_%28PSF%29.png)
+
 This is still a work in progress hack, feel free to play with the idea.
 
 Basic concept:
